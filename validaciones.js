@@ -10,3 +10,7 @@ function validarContraseña(contraseña) {
     const regexContraseña = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
     return regexContraseña.test(contraseña);
 }
+// Función para validar que el nombre de usuario no esté vacío
+function validarNombreUsuario(nombreUsuario) {
+    return nombreUsuario.trim() !== '';
+}   
