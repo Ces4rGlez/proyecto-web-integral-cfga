@@ -13,7 +13,7 @@ const client = new Client({
 async function connectToDatabase() {
     try {
         await client.connect();
-        console.log('Conexión a la base de datos exitosa');
+        console.log('Conexión a la base de datos exitosa!!!!');
     } catch (err) {
         console.error('Error al conectar a la base de datos:', err);
     }
